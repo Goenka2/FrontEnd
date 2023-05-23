@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>
+        forms
+    </title>
+</head>
+<form action="https://www.facebook.com" method="post">
+    <caption><b>Employee Table:</b></caption>
+    <table border="1" cellspacing="1" cellpadding="2" bgcolor="pink">
+        <tr>
+            <td>
+                <label for="nm">Name:</label>
+            </td>
+            <td>
+                <input type="text" name="nm" id="nm" placeholder="Enter Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="code">Employee Code</label>
+
+            </td>
+            <td><input type="text" name="code" id="code" placeholder="code"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dept">
+                    Department
+                </label>
+            </td>
+            <td>
+                <input type="radio" name="dept" id="Admin"><label for="Admin">Admin</label><br>
+                <input type="radio" name="dept" id="Hr"><label for="Hr">HR</label><br>
+                <input type="radio" name="dept" id="Technical"><label for="Technical">Technical</label><br>
+                <input type="radio" name="dept" id="Accounts"><label for="Accounts">Accounts</label>
+            </td>
+        <tr>
+            <td>
+                <label for="join">Date of Joining</label>
+
+            </td>
+            <td>
+                <input type="date" min="2023-01-01" max="2023-12-31">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="add">Address</label>
+            </td>
+            <td>
+                <textarea name="add" id="add" cols="50" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="attended">Training Program Attended</label>
+
+            </td>
+            <td>
+                <input type="checkbox" name="attended" id="html"><label for="html">HTML/DHTML</label><br>
+                <input type="checkbox" name="attended" id="java"><label for="java">JAVA</label><br>
+                <input type="checkbox" name="attended" id="CS"><label for="CS">CLIENT/SERVER</label><br>
+                <input type="checkbox" name="attended" id="net"><label for="net">.NET</label>
+            </td>
+        <tr>
+            <td>
+                <label for="program">Training Programmes need to attend</label>
+
+            </td>
+            <td>
+                <select name="program" id="program">
+                    <option value="html">HTML/DHTML</option>
+                    <option value="java">JAVA</option>
+                    <option value="linux">LINUX</option>
+                    <option value="dotnet">.NET</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="info">
+                    Send the informartion at
+                </label>
+            </td>
+            <td>
+                <a href="mailto:">Shubhamgoenka2@gmail.com</a>
+            </td>
+
+        </tr>
+
+    </table><br>
+    <input type="submit" value="SUBMIT" name="btn" id="submit">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="RESET" name="btn" id="reset">
+</form>
+
+</html>
